@@ -1,0 +1,54 @@
+/* opmaak linkjes en tekstveld */
+a.google:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a.yahoo:active {
+    color: red;
+    font-style: italic;
+}
+
+a.bing:visited {
+    color: yellow;
+}
+
+textarea:focus {
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+
+
+/* opmaak navigatiebalk */
+nav li {
+    display: inline;
+    color: white;
+    padding:  10px 30px 10px 30px;
+    margin: -2px;
+}
+
+
+nav li:first-child {
+    margin-left: -70px;   
+}
+
+
+nav li:hover {
+    background-color: lightskyblue;
+}
+
+
+nav li {
+    background-color: darkblue;
+}
+
+
+li.currentPage {
+    background-color: lightsteelblue;
+}
+
+
+li input:focus {
+    border: 5px solid aqua;
+}
